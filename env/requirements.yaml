@@ -7,3 +7,11 @@ dependencies:
   version: 2.3.58
   repository: https://chartmuseum.build.cd.jenkins-x.io
   alias: cleanup
+- name: tidb
+  version: 0.0.1
+  repository: http://kubernetes-charts-incubator.banzaicloud.com
+  alias: database
+- name: redis-ha
+  version: 2.2.3
+  repository: https://kubernetes-charts.storage.googleapis.com
+  alias: redis
